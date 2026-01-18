@@ -1,0 +1,16 @@
+project_id = "huwzqmxidysskpwcylyx"
+
+[functions.ai-shopping-assistant]
+verify_jwt = false
+
+[functions.ai-recommendations]
+verify_jwt = false
+
+[functions.send-promo-email]
+verify_jwt = true
+
+[functions.send-order-status-email]
+verify_jwt = true
+
+[functions.send-verification-status-email]
+verify_jwt = false
